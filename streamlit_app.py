@@ -11,3 +11,7 @@ df = pd.DataFrame({
 })
 
 df
+
+
+
+public_gsheets_url = "http://sensor.marin.ntnu.no/logs/Gruppe15.csv"
