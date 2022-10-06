@@ -15,3 +15,5 @@ df
 
 
 public_url = "http://sensor.marin.ntnu.no/logs/Gruppe15.csv"
+
+print(Gruppe15.csv)
