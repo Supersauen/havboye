@@ -2,18 +2,17 @@
 # My first app
 Here's our first attempt at using data to create a table:
 """
-
 import streamlit as st
+import numpy as np
 import pandas as pd
-df = pd.DataFrame({
-  'first column': [1, 2, 3, 4],
-  'second column': [10, 20, 30, 40]
-})
-
-df
-
+import pickle
+import time
+from matplotlib import pyplot as plt
+from  matplotlib.ticker import FuncFormatter
+import seaborn as sns
 
 
-public_getfile_url = "http://sensor.marin.ntnu.no/logs/Gruppe15.txt"
+df = pd.read_csv("http://sensor.marin.ntnu.no/logs/Ulstein05_10.txt")
 
-print(Gruppe15.txt)
+print(df)
+
