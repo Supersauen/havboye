@@ -7,7 +7,7 @@ import numpy as np
 
 
 
-df = pd.read_csv("http://sensor.marin.ntnu.no/logs/Ulstein05_10.txt")
+df = pd.read_txt("http://sensor.marin.ntnu.no/logs/Ulstein05_10.txt")
 
 print(df)
 
