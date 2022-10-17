@@ -11,8 +11,6 @@ import pandas as pd
 
 df = pd.read_csv("http://sensor.marin.ntnu.no/logs/Ulstein05_10.txt")
 
-df.plot()
-
 st.bar_chart(df)
 
 st.text("Test")
