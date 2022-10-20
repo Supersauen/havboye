@@ -15,7 +15,7 @@ df2 = pd.read_csv("http://sensor.marin.ntnu.no/logs/Ulstein17_10.txt", names = [
 
 st.header("Bøye nr 2 test")
 #st.bar_chart(df2[['lat','lon']])
-st.dataframe(df4)
+st.dataframe(df2)
 st.map(df2)
 
 st.header("Bøye nr 4 test")
